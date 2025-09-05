@@ -1,0 +1,2 @@
+# Ignore all SSH private keys
+ssh/.ssh/id_*
