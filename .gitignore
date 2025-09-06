@@ -1,2 +1,4 @@
 # Ignore all SSH private keys
 ssh/.ssh/id_*
+# Ignore the set of known hosts (re-create automatically)
+ssh/.ssh/known_hosts*
