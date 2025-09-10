@@ -1,0 +1,42 @@
+{
+    // General settings 
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 1,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    // Workbench settings (layout & Appearance)
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.folders.color": "#F9E2AF",
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.tree.indent": 25,
+    "workbench.productIconTheme": "bongocat",
+    // Editor settings 
+    "editor.fontFamily": "Hack Nerd Font",
+    "editor.colorDecorators": true,
+    "editor.minimap.enabled": false,
+    "editor.accessibilityPageSize": 16,
+    "editor.fontSize": 22,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "blink",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#1e1e2e",
+        "editorCursor.foreground": "#f5e0dc"
+    },
+    // Explorer settings
+    "explorer.compactFolders": false,
+    // File system settings
+    "files.autoSave": "onFocusChange",
+    // Python settings 
+    "python.analysis.typeCheckingMode": "strict",
+}
