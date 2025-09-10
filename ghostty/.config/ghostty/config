@@ -1,0 +1,18 @@
+# Theme:
+theme = catppuccin-mocha
+
+# Font: 
+font-family = Hack Nerd Font Mono
+font-size = 25
+
+# Cursor appearance (matches my VS code)
+cursor-style = bar
+cursor-color = #f5e0dc
+adjust-cursor-thickness = 5
+
+# Background appearance 
+background-opacity = 0.8
+background-blur = true 
+
+# Open terminal on top of screen
+keybind = global:alt+space=toggle_quick_terminal
