@@ -13,11 +13,11 @@ $git_status\
 $python\
 $conda\
 [](fg:teal bg:sapphire)\
+$cmd_duration\
 [](fg:sapphire bg:pink)\
 $time\
 [ ](fg:pink)\
 $fill\
-$cmd_duration\
 $status\
 $line_break\
 $character
@@ -114,11 +114,11 @@ vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 
 [cmd_duration]
 show_milliseconds = true
-format = "[ took $duration]($style) "
-style = "bold sky"
+style = "bg:text"
+format = '[[ 󱦟 $duration ](fg:crust bg:sapphire)]($style)'
 disabled = false
 show_notifications = true
-min_time = 0
+min_time = 2000
 min_time_to_notify = 45000
 
 [status]
