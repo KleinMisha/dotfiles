@@ -6,3 +6,6 @@ eval "$(starship init zsh)"
 if ! ssh-add -l | grep -q "id_ed25519_github"; then
     ssh-add --apple-use-keychain ~/.ssh/id_ed25519_github > /dev/null 2>&1
 fi
+
+# --- zsh-autosuggestions --- 
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
