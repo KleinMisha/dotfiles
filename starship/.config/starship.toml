@@ -16,6 +16,9 @@ $conda\
 [](fg:sapphire bg:pink)\
 $time\
 [ ](fg:pink)\
+$fill\
+$cmd_duration\
+$status\
 $line_break\
 $character
 """
@@ -75,52 +78,6 @@ format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
 style = "bg:teal"
 format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
 
-
-# [nodejs]
-# symbol = ""
-# style = "bg:green"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [c]
-# symbol = " "
-# style = "bg:green"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [rust]
-# symbol = ""
-# style = "bg:green"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [golang]
-# symbol = ""
-# style = "bg:green"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [php]
-# symbol = ""
-# style = "bg:green"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [java]
-# symbol = " "
-# style = "bg:green"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [kotlin]
-# symbol = ""
-# style = "bg:teal"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [haskell]
-# symbol = ""
-# style = "bg:teal"
-# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-
-# [docker_context]
-# symbol = ""
-# style = "bg:sapphire"
-# format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
-
 [python]
 symbol = ""
 style = "bg:teal"
@@ -136,16 +93,20 @@ ignore_base = false
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:pink"
+style = "bg:text"
 format = '[[  $time ](fg:crust bg:pink)]($style)'
 
 [line_break]
 disabled = false
 
+[fill]
+symbol = "."
+style = "bold text"
+
 [character]
 disabled = false
 success_symbol = '[❯](bold fg:green)'
-error_symbol = '[❯](bold fg:red)'
+error_symbol = '[❯](bold fg:maroon)'
 vimcmd_symbol = '[❮](bold fg:green)'
 vimcmd_replace_one_symbol = '[❮](bold fg:lavender)'
 vimcmd_replace_symbol = '[❮](bold fg:lavender)'
@@ -153,11 +114,20 @@ vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 
 [cmd_duration]
 show_milliseconds = true
-format = " in $duration "
-style = "bg:lavender"
+format = "[ took $duration]($style) "
+style = "bold sky"
 disabled = false
 show_notifications = true
+min_time = 0
 min_time_to_notify = 45000
+
+[status]
+success_symbol = ""
+symbol = "❌"
+style = "bold green"
+format = "[$symbol]($style)"
+disabled = false
+
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
