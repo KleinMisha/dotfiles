@@ -1,38 +1,30 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](red)\
+[](surface0)\
 $os\
 $username\
-[](bg:peach fg:red)\
+[](fg:surface0 bg:peach)\
 $directory\
-[](bg:yellow fg:peach)\
+[](fg:peach bg:green)\
 $git_branch\
 $git_status\
-[](fg:yellow bg:green)\
-$c\
-$rust\
-$golang\
-$nodejs\
-$php\
-$java\
-$kotlin\
-$haskell\
+[](fg:green bg:teal)\
 $python\
-[](fg:green bg:sapphire)\
 $conda\
-[](fg:sapphire bg:lavender)\
+[](fg:teal bg:sapphire)\
+[](fg:sapphire bg:pink)\
 $time\
-[ ](fg:lavender)\
-$cmd_duration\
+[ ](fg:pink)\
 $line_break\
-$character"""
+$character
+"""
 
 palette = 'catppuccin_mocha'
 
 [os]
 disabled = false
-style = "bg:red fg:crust"
+style = "bg:surface0 fg:text"
 
 [os.symbols]
 Windows = ""
@@ -57,8 +49,8 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:red fg:crust"
-style_root = "bg:red fg:crust"
+style_user = "bg:surface0 fg:text"
+style_root = "bg:surface0 fg:text"
 format = '[ $user]($style)'
 
 [directory]
@@ -76,77 +68,79 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:yellow"
-format = '[[ $symbol $branch ](fg:crust bg:yellow)]($style)'
+style = "bg:teal"
+format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
 
 [git_status]
-style = "bg:yellow"
-format = '[[($all_status$ahead_behind )](fg:crust bg:yellow)]($style)'
+style = "bg:teal"
+format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
 
-[nodejs]
-symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[c]
-symbol = " "
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [nodejs]
+# symbol = ""
+# style = "bg:green"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[rust]
-symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [c]
+# symbol = " "
+# style = "bg:green"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[golang]
-symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [rust]
+# symbol = ""
+# style = "bg:green"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[php]
-symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [golang]
+# symbol = ""
+# style = "bg:green"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[java]
-symbol = " "
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [php]
+# symbol = ""
+# style = "bg:green"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[kotlin]
-symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [java]
+# symbol = " "
+# style = "bg:green"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
-[haskell]
-symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+# [kotlin]
+# symbol = ""
+# style = "bg:teal"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+
+# [haskell]
+# symbol = ""
+# style = "bg:teal"
+# format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+
+# [docker_context]
+# symbol = ""
+# style = "bg:sapphire"
+# format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
 
 [python]
 symbol = ""
-style = "bg:green"
-format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:teal)]($style)'
 
-[docker_context]
-symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
 
 [conda]
 symbol = "  "
-style = "fg:crust bg:sapphire"
+style = "fg:crust bg:teal"
 format = '[$symbol$environment ]($style)'
 ignore_base = false
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:lavender"
-format = '[[  $time ](fg:crust bg:lavender)]($style)'
+style = "bg:pink"
+format = '[[  $time ](fg:crust bg:pink)]($style)'
 
 [line_break]
-disabled = true
+disabled = false
 
 [character]
 disabled = false
