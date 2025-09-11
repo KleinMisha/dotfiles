@@ -50,3 +50,6 @@ fi
 # Source the script
 source $FZF_GIT_SH/fzf-git.sh
 
+
+# ---- bat (a better 'cat'. Display content to terminal with syntax highlighting) --- 
+export BAT_THEME="Catppuccin Mocha" 
