@@ -52,4 +52,7 @@ source $FZF_GIT_SH/fzf-git.sh
 
 
 # ---- bat (a better 'cat'. Display content to terminal with syntax highlighting) --- 
-export BAT_THEME="Catppuccin Mocha" 
+export BAT_THEME="Catppuccin Mocha"
+
+# --- eza (a nicer 'ls') --- 
+alias ls="eza --color=always --icons=always --long --git --no-permissions --no-time --no-user --no-filesize"
