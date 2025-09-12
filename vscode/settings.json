@@ -39,4 +39,6 @@
     "files.autoSave": "onFocusChange",
     // Python settings 
     "python.analysis.typeCheckingMode": "strict",
+    // Terminal window settings 
+    "terminal.integrated.fontSize": 20
 }
