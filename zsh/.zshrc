@@ -75,3 +75,7 @@ export BAT_THEME="Catppuccin Mocha"
 
 # --- eza (a nicer 'ls') --- 
 alias ls="eza --color=always --icons=always --long --git --no-permissions --no-time --no-user --no-filesize"
+
+# --- zoxide (a nicer 'cd' to navigate into directories.) --- 
+eval "$(zoxide init zsh)"
+alias cd="z"
