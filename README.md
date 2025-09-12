@@ -88,6 +88,7 @@ Adobe Acrobat Reader|View, print, and comment on PDF documents|https://www.adobe
 FreeMacSoft AppCleaner|Application uninstaller|https://freemacsoft.net/appcleaner/|cask
 Hack Nerd Font (Hack)|-|https://github.com/ryanoasis/nerd-fonts|cask
 Ghostty|Terminal emulator that uses platform-native UI and GPU acceleration|https://ghostty.org/|cask
+Hidden Bar|Utility to hide menu bar items|https://github.com/dwarvesf/hidden/|cask
 Maccy|Clipboard manager|https://maccy.app/|cask
 Rectangle|Move and resize windows using keyboard shortcuts or snap areas|https://rectangleapp.com/|cask
 Spotify|Music streaming service|https://www.spotify.com/|cask
