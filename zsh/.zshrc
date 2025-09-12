@@ -88,3 +88,6 @@ alias ls="eza --color=always --icons=always --long --git --no-permissions --no-t
 # --- zoxide (a nicer 'cd' to navigate into directories.) --- 
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+# --- UV (Python package manager) --- 
+eval "$(uv generate-shell-completion zsh)" 
