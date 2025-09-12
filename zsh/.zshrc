@@ -51,6 +51,25 @@ fi
 source $FZF_GIT_SH/fzf-git.sh
 
 
+# Use bat / eza to show a nice preview of either the directory tree or the file contents when using fzf 
+export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500{}"
+
+# Advanced customization of fzf options via _fzf_comprun function
+# - The first argument to the function is the name of the command.
+# - You should make sure to pass the rest of the arguments ($@) to fzf.
+_fzf_comprun() {
+  local command=$1
+  shift
+
+  case "$command" in
+    cd)           fzf --preview 'eza --tree --color=always --icons=always {} | head -200'   "$@" ;;
+    export|unset) fzf --preview "eval 'echo \$'{}"         "$@" ;;
+    ssh)          fzf --preview 'dig {}'                   "$@" ;;
+    *)            fzf --preview 'bat -n --color=always --line-range :500 {}' "$@" ;;
+  esac
+}
+
+
 # ---- bat (a better 'cat'. Display content to terminal with syntax highlighting) --- 
 export BAT_THEME="Catppuccin Mocha"
 
