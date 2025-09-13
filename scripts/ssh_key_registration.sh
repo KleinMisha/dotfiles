@@ -1,4 +1,5 @@
 # Register SSH keys with the macOS agent and keychain
+# Code written by ChatGPT 
 
 SSH_KEYS=(
   "$HOME/.ssh/id_ed25519_github"
