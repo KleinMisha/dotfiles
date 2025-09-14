@@ -35,6 +35,9 @@
     },
     // Explorer settings
     "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmUndo": false,
     // File system settings
     "files.autoSave": "onFocusChange",
     // Python settings 
