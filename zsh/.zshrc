@@ -88,3 +88,19 @@ alias cd="z"
 
 # --- UV (Python package manager) --- 
 eval "$(uv generate-shell-completion zsh)" 
+
+# --- Microsoft Office Suite --- 
+# 📄 Open a Word document
+word() {
+  open -a "Microsoft Word" "$@"
+}
+
+# 📊 Open an Excel spreadsheet
+excel() {
+  open -a "Microsoft Excel" "$@"
+}
+
+# 📽️ Open a PowerPoint presentation
+powerpoint() {
+  open -a "Microsoft PowerPoint" "$@"
+}

@@ -20,6 +20,11 @@ cask font-hack-nerd-font
 cask ghostty
 cask hiddenbar
 cask maccy
+cask microsoft-auto-update
+cask microsoft-excel
+cask microsoft-outlook
+cask microsoft-powerpoint
+cask microsoft-word
 cask rectangle
 cask spotify
 cask visual-studio-code
