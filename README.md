@@ -66,38 +66,39 @@ This will help setting up a new machine in the future.
 
 ## Installed Software
 
-| name                         | desc                                                                     | homepage                                                                      | formula/cask |
-| ---------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------ |
-| bat                          | Clone of cat(1) with syntax highlighting and Git integration             | https://github.com/sharkdp/bat                                                | formula      |
-| eza                          | Modern, maintained replacement for ls                                    | https://github.com/eza-community/eza                                          | formula      |
-| fd                           | Simple, fast and user-friendly alternative to find                       | https://github.com/sharkdp/fd                                                 | formula      |
-| fzf                          | Command-line fuzzy finder written in Go                                  | https://github.com/junegunn/fzf                                               | formula      |
-| git                          | Distributed revision control system                                      | https://git-scm.com                                                           | formula      |
-| git-delta                    | Syntax-highlighting pager for git and diff output                        | https://github.com/dandavison/delta                                           | formula      |
-| python@3.13                  | Interpreted, interactive, object-oriented programming language           | https://www.python.org/                                                       | formula      |
-| starship                     | Cross-shell prompt for astronauts                                        | https://starship.rs/                                                          | formula      |
-| stow                         | Organize software neatly under a single directory tree (e.g. /usr/local) | https://www.gnu.org/software/stow/                                            | formula      |
-| tlrc                         | Official tldr client written in Rust                                     | https://tldr.sh/tlrc/                                                         | formula      |
-| uv                           | Extremely fast Python package installer and resolver, written in Rust    | https://docs.astral.sh/uv/                                                    | formula      |
-| wget                         | Internet file retriever                                                  | https://www.gnu.org/software/wget/                                            | formula      |
-| zoxide                       | Shell extension to navigate your filesystem faster                       | https://github.com/ajeetdsouza/zoxide                                         | formula      |
-| zsh-autosuggestions          | Fish-like fast/unobtrusive autosuggestions for zsh                       | https://github.com/zsh-users/zsh-autosuggestions                              | formula      |
-| zsh-completions              | Additional completion definitions for zsh                                | https://github.com/zsh-users/zsh-completions                                  | formula      |
-| zsh-syntax-highlighting      | Fish shell like syntax highlighting for zsh                              | https://github.com/zsh-users/zsh-syntax-highlighting                          | formula      |
-| Adobe Acrobat Reader         | View, print, and comment on PDF documents                                | https://www.adobe.com/acrobat/pdf-reader.html                                 | cask         |
-| FreeMacSoft AppCleaner       | Application uninstaller                                                  | https://freemacsoft.net/appcleaner/                                           | cask         |
-| Hack Nerd Font (Hack)        | -                                                                        | https://github.com/ryanoasis/nerd-fonts                                       | cask         |
-| Ghostty                      | Terminal emulator that uses platform-native UI and GPU acceleration      | https://ghostty.org/                                                          | cask         |
-| Hidden Bar                   | Utility to hide menu bar items                                           | https://github.com/dwarvesf/hidden/                                           | cask         |
-| Maccy                        | Clipboard manager                                                        | https://maccy.app/                                                            | cask         |
-| Microsoft Auto Update        | Provides updates to various Microsoft products                           | https://docs.microsoft.com/officeupdates/release-history-microsoft-autoupdate | cask         |
-| Microsoft Excel              | Spreadsheet software                                                     | https://www.microsoft.com/en-US/microsoft-365/excel                           | cask         |
-| Microsoft Outlook            | Email client                                                             | https://www.microsoft.com/en-us/microsoft-365/outlook/outlook-for-business    | cask         |
-| Microsoft PowerPoint         | Presentation software                                                    | https://www.microsoft.com/en-US/microsoft-365/powerpoint                      | cask         |
-| Microsoft Word               | Word processor                                                           | https://www.microsoft.com/en-US/microsoft-365/word                            | cask         |
-| Rectangle                    | Move and resize windows using keyboard shortcuts or snap areas           | https://rectangleapp.com/                                                     | cask         |
-| Spotify                      | Music streaming service                                                  | https://www.spotify.com/                                                      | cask         |
-| Microsoft Visual Studio Code | Open-source code editor                                                  | https://code.visualstudio.com/                                                | cask         |
+|name|desc|homepage|formula/cask
+|----|----|--------|------------
+bat|Clone of cat(1) with syntax highlighting and Git integration|https://github.com/sharkdp/bat|formula
+eza|Modern, maintained replacement for ls|https://github.com/eza-community/eza|formula
+fd|Simple, fast and user-friendly alternative to find|https://github.com/sharkdp/fd|formula
+fzf|Command-line fuzzy finder written in Go|https://github.com/junegunn/fzf|formula
+git|Distributed revision control system|https://git-scm.com|formula
+git-delta|Syntax-highlighting pager for git and diff output|https://github.com/dandavison/delta|formula
+python@3.13|Interpreted, interactive, object-oriented programming language|https://www.python.org/|formula
+starship|Cross-shell prompt for astronauts|https://starship.rs/|formula
+stow|Organize software neatly under a single directory tree (e.g. /usr/local)|https://www.gnu.org/software/stow/|formula
+tlrc|Official tldr client written in Rust|https://tldr.sh/tlrc/|formula
+uv|Extremely fast Python package installer and resolver, written in Rust|https://docs.astral.sh/uv/|formula
+wget|Internet file retriever|https://www.gnu.org/software/wget/|formula
+zoxide|Shell extension to navigate your filesystem faster|https://github.com/ajeetdsouza/zoxide|formula
+zsh-autosuggestions|Fish-like fast/unobtrusive autosuggestions for zsh|https://github.com/zsh-users/zsh-autosuggestions|formula
+zsh-completions|Additional completion definitions for zsh|https://github.com/zsh-users/zsh-completions|formula
+zsh-syntax-highlighting|Fish shell like syntax highlighting for zsh|https://github.com/zsh-users/zsh-syntax-highlighting|formula
+Adobe Acrobat Reader|View, print, and comment on PDF documents|https://www.adobe.com/acrobat/pdf-reader.html|cask
+FreeMacSoft AppCleaner|Application uninstaller|https://freemacsoft.net/appcleaner/|cask
+Hack Nerd Font (Hack)|-|https://github.com/ryanoasis/nerd-fonts|cask
+Ghostty|Terminal emulator that uses platform-native UI and GPU acceleration|https://ghostty.org/|cask
+Hidden Bar|Utility to hide menu bar items|https://github.com/dwarvesf/hidden/|cask
+Maccy|Clipboard manager|https://maccy.app/|cask
+Microsoft Auto Update|Provides updates to various Microsoft products|https://docs.microsoft.com/officeupdates/release-history-microsoft-autoupdate|cask
+Microsoft Excel|Spreadsheet software|https://www.microsoft.com/en-US/microsoft-365/excel|cask
+Microsoft Outlook|Email client|https://www.microsoft.com/en-us/microsoft-365/outlook/outlook-for-business|cask
+Microsoft PowerPoint|Presentation software|https://www.microsoft.com/en-US/microsoft-365/powerpoint|cask
+Microsoft Teams|Meet, chat, call, and collaborate in just one place|https://www.microsoft.com/en/microsoft-teams/group-chat-software/|cask
+Microsoft Word|Word processor|https://www.microsoft.com/en-US/microsoft-365/word|cask
+Rectangle|Move and resize windows using keyboard shortcuts or snap areas|https://rectangleapp.com/|cask
+Spotify|Music streaming service|https://www.spotify.com/|cask
+Microsoft Visual Studio Code|Open-source code editor|https://code.visualstudio.com/|cask
 
 ## Add a new brew package? 
 This repo contains two scripts that will: 

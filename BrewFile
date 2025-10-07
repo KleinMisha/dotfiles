@@ -24,6 +24,7 @@ cask microsoft-auto-update
 cask microsoft-excel
 cask microsoft-outlook
 cask microsoft-powerpoint
+cask microsoft-teams
 cask microsoft-word
 cask rectangle
 cask spotify
