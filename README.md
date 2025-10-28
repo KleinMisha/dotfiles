@@ -90,6 +90,7 @@ Hack Nerd Font (Hack)|-|https://github.com/ryanoasis/nerd-fonts|cask
 Ghostty|Terminal emulator that uses platform-native UI and GPU acceleration|https://ghostty.org/|cask
 Hidden Bar|Utility to hide menu bar items|https://github.com/dwarvesf/hidden/|cask
 Maccy|Clipboard manager|https://maccy.app/|cask
+Menubar Colors|Menu bar app for convenient access to the system colour panel|https://github.com/nvzqz/Menubar-Colors|cask
 Microsoft Auto Update|Provides updates to various Microsoft products|https://docs.microsoft.com/officeupdates/release-history-microsoft-autoupdate|cask
 Microsoft Excel|Spreadsheet software|https://www.microsoft.com/en-US/microsoft-365/excel|cask
 Microsoft Outlook|Email client|https://www.microsoft.com/en-us/microsoft-365/outlook/outlook-for-business|cask

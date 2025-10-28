@@ -20,6 +20,7 @@ cask font-hack-nerd-font
 cask ghostty
 cask hiddenbar
 cask maccy
+cask menubar-colors
 cask microsoft-auto-update
 cask microsoft-excel
 cask microsoft-outlook
