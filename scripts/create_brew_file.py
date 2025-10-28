@@ -13,6 +13,7 @@ BREWFILE = "./BrewFile"
 def main() -> None:
     formulae, casks = get_installed_brew_packages()
     create_brew_file(formulae, casks)
+    print_packages(formulae, casks)
 
 
 def get_installed_brew_packages() -> tuple[list[str], list[str]]:
@@ -42,6 +43,21 @@ def create_brew_file(
             brew_file.write(f"cask {cask}\n")
 
     print(f"Successfully wrote only the installed packages into: {brewfile_path}")
+
+
+def print_packages(formulae: list[str], casks: list[str]) -> None:
+    """Nicely formats things to print to screen"""
+    print("Formulae:")
+    print("----" * 5)
+    for formula in formulae:
+        print(formula)
+
+    print("\n" * 2)
+
+    print("Casks:")
+    print("----" * 5)
+    for cask in casks:
+        print(cask)
 
 
 if __name__ == "__main__":

@@ -11,7 +11,6 @@ FALLBACK = "./brew_table.md"
 def main() -> None:
     requests = ["name", "desc", "homepage"]
     installed_packages = get_installed_brew_packages()
-    # installed_packages = ["bat"]
     package_info = construct_package_info(installed_packages, requests)
     md_info_table = create_markdown_table(package_info)
     write_to_md(md_info_table)
