@@ -97,6 +97,7 @@ Microsoft Outlook|Email client|https://www.microsoft.com/en-us/microsoft-365/out
 Microsoft PowerPoint|Presentation software|https://www.microsoft.com/en-US/microsoft-365/powerpoint|cask
 Microsoft Teams|Meet, chat, call, and collaborate in just one place|https://www.microsoft.com/en/microsoft-teams/group-chat-software/|cask
 Microsoft Word|Word processor|https://www.microsoft.com/en-US/microsoft-365/word|cask
+quarto|Scientific and technical publishing system built on Pandoc|https://www.quarto.org/|cask
 Rectangle|Move and resize windows using keyboard shortcuts or snap areas|https://rectangleapp.com/|cask
 Spotify|Music streaming service|https://www.spotify.com/|cask
 Microsoft Visual Studio Code|Open-source code editor|https://code.visualstudio.com/|cask

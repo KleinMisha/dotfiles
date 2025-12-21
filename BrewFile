@@ -27,6 +27,7 @@ cask microsoft-outlook
 cask microsoft-powerpoint
 cask microsoft-teams
 cask microsoft-word
+cask quarto
 cask rectangle
 cask spotify
 cask visual-studio-code
