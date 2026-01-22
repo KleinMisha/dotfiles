@@ -104,3 +104,7 @@ excel() {
 powerpoint() {
   open -a "Microsoft PowerPoint" "$@"
 }
+
+
+# lualatex 
+export PATH="$HOME/Library/TinyTeX/bin/universal-darwin:$PATH"
