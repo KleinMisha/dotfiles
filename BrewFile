@@ -4,6 +4,7 @@ brew fd
 brew fzf
 brew git
 brew git-delta
+brew libomp
 brew python@3.13
 brew starship
 brew stow
@@ -16,6 +17,8 @@ brew zsh-completions
 brew zsh-syntax-highlighting
 cask adobe-acrobat-reader
 cask appcleaner
+cask chatgpt
+cask docker-desktop
 cask font-hack-nerd-font
 cask ghostty
 cask hiddenbar

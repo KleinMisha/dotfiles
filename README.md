@@ -74,6 +74,7 @@ fd|Simple, fast and user-friendly alternative to find|https://github.com/sharkdp
 fzf|Command-line fuzzy finder written in Go|https://github.com/junegunn/fzf|formula
 git|Distributed revision control system|https://git-scm.com|formula
 git-delta|Syntax-highlighting pager for git and diff output|https://github.com/dandavison/delta|formula
+libomp|LLVM's OpenMP runtime library|https://openmp.llvm.org/|formula
 python@3.13|Interpreted, interactive, object-oriented programming language|https://www.python.org/|formula
 starship|Cross-shell prompt for astronauts|https://starship.rs/|formula
 stow|Organize software neatly under a single directory tree (e.g. /usr/local)|https://www.gnu.org/software/stow/|formula
@@ -86,6 +87,8 @@ zsh-completions|Additional completion definitions for zsh|https://github.com/zsh
 zsh-syntax-highlighting|Fish shell like syntax highlighting for zsh|https://github.com/zsh-users/zsh-syntax-highlighting|formula
 Adobe Acrobat Reader|View, print, and comment on PDF documents|https://www.adobe.com/acrobat/pdf-reader.html|cask
 FreeMacSoft AppCleaner|Application uninstaller|https://freemacsoft.net/appcleaner/|cask
+ChatGPT|OpenAI's official ChatGPT desktop app|https://chatgpt.com/|cask
+Docker Desktop|App to build and share containerised applications and microservices|https://www.docker.com/products/docker-desktop|cask
 Hack Nerd Font (Hack)|-|https://github.com/ryanoasis/nerd-fonts|cask
 Ghostty|Terminal emulator that uses platform-native UI and GPU acceleration|https://ghostty.org/|cask
 Hidden Bar|Utility to hide menu bar items|https://github.com/dwarvesf/hidden/|cask
