@@ -4,7 +4,7 @@
     "window.zoomLevel": 1,
     "extensions.autoUpdate": "onlyEnabledExtensions",
     // Workbench settings (layout & Appearance)
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.sideBar.location": "right",
     "workbench.activityBar.location": "top",
     "workbench.statusBar.visible": true,
