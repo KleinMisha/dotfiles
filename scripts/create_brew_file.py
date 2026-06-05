@@ -38,9 +38,9 @@ def create_brew_file(
 ) -> None:
     with open(brewfile_path, "w") as brew_file:
         for formula in formulae:
-            brew_file.write(f"brew {formula}\n")
+            brew_file.write(f'brew "{formula}"\n')
         for cask in casks:
-            brew_file.write(f"cask {cask}\n")
+            brew_file.write(f'cask "{cask}"\n')
 
     print(f"Successfully wrote only the installed packages into: {brewfile_path}")
 
