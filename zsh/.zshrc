@@ -108,3 +108,7 @@ powerpoint() {
 
 # lualatex 
 export PATH="$HOME/Library/TinyTeX/bin/universal-darwin:$PATH"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/misha/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
