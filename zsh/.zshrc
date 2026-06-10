@@ -89,6 +89,10 @@ alias cd="z"
 # --- UV (Python package manager) --- 
 eval "$(uv generate-shell-completion zsh)" 
 
+
+
+
+
 # --- Microsoft Office Suite --- 
 # 📄 Open a Word document
 word() {
@@ -105,10 +109,12 @@ powerpoint() {
   open -a "Microsoft PowerPoint" "$@"
 }
 
-
-# lualatex 
+# --- gather path exports ---- 
 export PATH="$HOME/Library/TinyTeX/bin/universal-darwin:$PATH"
+export PATH="/Users/misha/.rd/bin:$PATH"  # MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/misha/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+
+# --- aliases --- 
+alias python=python3.13
+
