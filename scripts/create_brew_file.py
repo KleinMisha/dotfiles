@@ -29,7 +29,7 @@ def run_brew_command(cmd: list[str]) -> list[str]:
     """
     Run the command and retrieve the string response
     """
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, capture_output=True, text=True, check=False)
     return result.stdout.strip().splitlines()
 
 
