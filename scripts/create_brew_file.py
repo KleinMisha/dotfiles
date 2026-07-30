@@ -5,7 +5,6 @@ Create a BrewFile: A list of all packages installed via Homebrew that can be use
 import subprocess
 from pathlib import Path
 
-
 # by convention, it is placed at the top level of this repository
 BREWFILE = "./BrewFile"
 

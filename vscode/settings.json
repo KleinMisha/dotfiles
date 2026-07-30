@@ -60,5 +60,6 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "jupyter.askForKernelRestart": false,
-    "docker.extension.enableComposeLanguageServer": false
+    "docker.extension.enableComposeLanguageServer": false,
+    "chat.disableAIFeatures": true
 }
