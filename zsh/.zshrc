@@ -11,7 +11,9 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # --- zsh-completions --- 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
+  
+  # to prevent that 'compinit' warning/ y/n prompt every time you open the terminal emulator. 
+  chmod g-w,o-w "$(brew --prefix)/share" 2>/dev/null
   autoload -Uz compinit
   compinit
 fi
