@@ -8,10 +8,15 @@ source ~/dotfiles/scripts/ssh_key_registration.sh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # --- zsh-syntax-highlighting --- 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# --- zsh-completions --- 
+
+
+
+# --- zsh-completions ---
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
+  # to prevent that 'compinit' warning/ y/n prompt every time you open the terminal emulator. 
+  chmod g-w,o-w "$(brew --prefix)/share" 2>/dev/null
   autoload -Uz compinit
   compinit
 fi
@@ -120,5 +125,5 @@ alias python3=python3.13
 
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/misha/.rd/bin:$PATH"
+export PATH="/Users/mishaklein/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
