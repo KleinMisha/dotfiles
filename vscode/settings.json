@@ -2,7 +2,7 @@
     // General settings 
     "security.workspace.trust.untrustedFiles": "open",
     "window.zoomLevel": 1,
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.autoUpdate": "on",
     // Workbench settings (layout & Appearance)
     "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.sideBar.location": "right",
@@ -60,6 +60,5 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "jupyter.askForKernelRestart": false,
-    "docker.extension.enableComposeLanguageServer": false,
-    "chat.disableAIFeatures": true
+    "docker.extension.enableComposeLanguageServer": false
 }
