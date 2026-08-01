@@ -59,6 +59,5 @@
     "[github-actions-workflow]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "jupyter.askForKernelRestart": false,
-    "docker.extension.enableComposeLanguageServer": false
+    "jupyter.askForKernelRestart": false
 }
