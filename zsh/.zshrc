@@ -118,7 +118,7 @@ export PATH="/Users/misha/.rd/bin:$PATH"  # MANAGED BY RANCHER DESKTOP END (DO N
 
 
 # --- aliases --- 
-alias python3=python3.13
+alias python3=python3.14
 
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
