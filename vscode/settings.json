@@ -87,7 +87,7 @@
     {
       "name": "tui",
       "base": "ui",
-      "color": "#640CC9",
+      "color": "#E223ECE2",
       "folderNames": ["tui","terminal_interface","terminal_app"]
     }
   ]
